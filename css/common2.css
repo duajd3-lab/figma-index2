@@ -1,0 +1,125 @@
+@import url('./reset.css');
+
+
+/* 공통 스타일 */
+
+html{font-size: 16px;}
+body{
+    color: #555;
+    margin: 0 auto;
+}
+.title>h2{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.title>p{
+    padding-top: 10px;
+    color: #555;
+}
+
+
+
+/* =================header================*/
+
+header{
+    position: fixed;
+    left: 0; top: 0;
+    width: 100%;
+    z-index: 1;
+    
+    
+}
+header > div {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;      
+}
+.spot {
+    width: 100%;
+    height: 800px;
+}
+header > div > h1{
+    font-size: 30px;
+    padding: 20px 0;
+}
+header > div > h1 > a{
+    color: white;
+}
+header > div > nav{
+    display: flex;
+    gap: 20px;
+    
+}
+header > div > nav > a{
+    color: white;
+    font-size: 15px;
+    padding: 0 5px;
+}
+
+
+
+/* 인덱스 페이지 내용 */
+
+.spot{
+    width: 100%;
+    height: 900px;
+    background-image:url('../imgs/img-spot.jpg');
+    background-size: 100%;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+
+    position: relative;
+    
+}
+
+
+.spot > div{
+    color: aliceblue;
+    
+}
+
+.spot .title{
+    position: absolute;
+    font-size: 50px;
+    color: white; 
+    left: 10%;
+    
+}
+
+.spot .title2{
+    position: absolute;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    left: 75.9%; bottom: 0%;
+    
+}
+.spot .title2 > span{
+    padding: 15px;
+}
+
+.title > p{
+    color: aliceblue;
+    text-align: left;
+}
+
+.title > p:nth-of-type(1){}
+.title > p:nth-of-type(2){
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+
+
+
+

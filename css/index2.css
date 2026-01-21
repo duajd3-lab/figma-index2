@@ -1,0 +1,49 @@
+@import url('./reset.css');
+@import url('./common2.css');
+
+
+.room{
+    width: 1400px;
+    margin: 100px auto;
+    padding: 50px ;
+}
+.room .list{
+    display: flex;
+    margin: 0;
+    
+    
+}
+.room .list > p > img{
+    padding: 30px;
+    margin: 10px -25px;
+    
+}
+
+
+
+.special {
+    width: 1400px;
+    margin: 100px auto;
+    padding: 50px;
+    
+}
+.special .title{
+    
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.special .spe{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
